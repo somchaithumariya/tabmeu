@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <title>การทำเมนูเว็บแบบแทป</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="btn-box">
+            <button id="btn1" onclick="openHTML()"><i class="fab fa-line"></i> LINE</button>
+            <button id="btn2" onclick="openCSS()"><i class="fab fa-facebook-square"></i> FACEBOOK</button>
+            <button id="btn3" onclick="openJS()"><i class="fab fa-youtube"></i> YOUTUBE</button>
+        </div>
+        <div class="content" id="content1">
+            <div class="content-left">
+                <h1>Line</h1>
+                <p>LINE เป็นโปรแกรมแชทที่สามารถใช้งานได้ทั้งโทรศัพท์มือถือที่มีระบบปฏิบัติการ iOS, Android, Windows Phone ล่าสุดสามารถใช้งานได้บนคอมพิวเตอร์ PC และ Mac ได้แล้ว ด้วยความที่มีลูกเล่นมากมาย สามารถแชท ส่งรูป ส่งไอคอน ส่ง Sticker ตั้งค่าคุยกันเป็นกลุ่ม ฯลฯ ทำให้มีผู้ใช้งานแอพนี้เป็นจำนวนมาก. การเชื่อมต่อ LINE ของผู้ใช้เข้าหากัน มี 4 วิธี
+
+                    1. เพิ่มคอนแท็กต์จากรายชื่อในสมุดโทรศัพท์ ซึ่งตรงนี้เป็นข้อดีของ WhatsApp ที่ทำให้ผู้ใช้งานสะดวก
+                    
+                    2. การสแกน QR Code
+                    
+                    3. Shake it เอาโทรศัพท์มือถือ 2 เครื่องที่อยู่ใกล้กันมาเขย่าคล้ายการจับมือให้รู้จักกัน
+                    
+                    4. การเสิร์ชหาจาก ID คล้ายการใส่รหัสของ BlackBerry</p>
+                <a href="#">WATCH VIDEO</a>
+            </div>
+            <div class="content-right">
+                <img src="pic-1.png">
+            </div>
+        </div>
+        <div id="content2" class="content">
+            <div class="content-left">
+                <h1>Facebook</h1>
+                <p>Facebook คือเว็บไซต์ที่ให้บริการเครือค่ายสังคมออนไลน์ ผ่าน Internet หรือ เรียกได้ว่า เป็น Social Network ถูกก่อตั้งโดย มาร์ก ซักเคอร์เบิร์ก เฟซบุ๊กอนุญาตให้ใครก็ได้เข้าสมัครลงทะเบียนกับเฟซบุ๊ก และผู้เป็นสามาชิกของเฟชบุ๊ก นั้นสามารถสร้างพื้นที่ส่วนตัว สำหรับแนะนำตัวเอง ติดต่อสื่อกับเพื่อน ทั้งเเบบ ข้อความ ภาพ เสียง และ วีดีโอ โดยผู้ใช้สามารถเลือกที่จะเป็นหรือไม่เป็นเพื่อนกับใครก็ได้ในเฟชบุ๊ก
+                    นอกจากนี้ผู้ใช้ยังสามารถใช้เฟชบุ๊ก เพื่อร่วมทำกิจกรรมกับผู้ใช้งานท่านอื่นได้เช่น การเขียนข้อความ เล่าเรื่อง ความรู้สึก แสดงความคิดเห็นเรื่องที่สนใจ โพสต์รูปภาพ โพสต์คลิปวิดีโอ แชทพูดคุย เล่นเกมที่สามารถชวนผู้ใช้งานท่านอื่นมาเล่นกับเราได้.</p>
+                <a href="#">WATCH VIDEO</a>
+            </div>
+            <div class="content-right">
+                <img src="pic-2.png">
+            </div>
+        </div>
+        <div id="content3" class="content">
+            <div class="content-left">
+                <h1>Youtube</h1>
+                <p> YouTube (ยูทูบ) เป็นเว็บไซต์แลกเปลี่ยนภาพวิดีโอที่มีชื่อเสียง(www.youtube.com) โดยในเว็บไซต์นี้ ผู้ใช้สามารถอัพโหลดภาพวิดีโอเข้าไป เปิดดูภาพวิดีโอที่มีอยู่ และแบ่งภาพวิดีโอ เหล่านี้ให้คนอื่นดูได้โดยไม่เสียค่าใช้จ่ายใดๆ  ใน YouTube จะมีข้อมูลเนื้อหารวมถึงคลิปภาพยนตร์สั้นๆ และคลิปที่มาจากรายการโทรทัศน์ มิวสิกวิดีโอ และวิดีโอบล็อกกิ้ง (ซึ่งเป็นการสร้างบล็อกโดยมีส่วนของข้อมูลที่เป็นภาพ วิดีโอเป็นส่วนประกอบ โดยเฉพาะเป็นภาพวิดีโอที่เกิดจากมือสมัครเล่นถ่ายกันเอง) คลิปวิดีโอที่เผยแพร่อยู่บนเว็บไซต์ YouTube ส่วนมากเป็นไฟล์คลิปสั้นๆ ประมาณ 1 - 10 นาที ถ่ายทำโดยประชาชนทั่วไป แล้วอัพโหลดขึ้นสู่เว็บไซต์ของ YouTube โดยมีการแบ่งประเภทและจัดอันดับคลิปเอาไว้ด้วย เช่น ไฟล์ล่าสุด, ไฟล์ที่มีผู้ชมมากที่สุด, ไฟล์ที่ได้รับการโหวตมากที่สุด ฯลฯ.</p>
+                <a href="#">WATCH VIDEO</a>
+            </div>
+            <div class="content-right">
+                <img src="pic-3.png">
+            </div>
+        </div>
+    </div>
+    <script>
+        var contentl = document.getElementById("content1");
+        var content2 = document.getElementById("content2");
+        var content3 = document.getElementById("content3");
+        var btnl = document.getElementById("btn1");
+        var btn2 = document.getElementById("btn2");
+        var btn3 = document.getElementById("btn3");
+
+        function openHTML() {
+            contentl.style.transform = "translateX(0)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(100%)";
+            btn1.style.color = "#ff7846";
+            btn2.style.color = "#000";
+            btn3.style.color = "#000";
+            contentl.style.transitionDelay = "0.3s";
+            content2.style.transitionDelay = "0s";
+            content3.style.transitionDelay = "0s";
+        }
+        function openCSS() {
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(0)";
+            content3.style.transform = "translateX(100%)";
+            btn2.style.color = "#ff7846";
+            btnl.style.color = "#000";
+            btn3.style.color = "#000";
+            contentl.style.transitionDelay = "0";
+            content2.style.transitionDelay = "0.3s";
+            content3.style.transitionDelay = "0s";
+        }
+        function openJS() {
+            contentl.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(0)";
+            btn3.style.color = "#ff7846";
+            btn2.style.color = "#000";
+            btn1.style.color = "#000";
+            contentl.style.transitionDelay = "0s";
+            content2.style.transitionDelay = "0s";
+            content3.style.transitionDelay = "0.3s";
+        }
+
+    </script>
+</body>
+
+</html>
